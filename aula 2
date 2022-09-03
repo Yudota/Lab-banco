@@ -1,0 +1,53 @@
+SELECT DISTINCT
+    "A1"."DEPARTAMENTO" "DEPARTAMENTO"
+FROM
+    "c##app"."TABELAO" "A1" ;
+    
+create sequence sq_teste nocache;
+select * from teste;
+
+create table teste(
+    teste_id integer,
+    teste_nome varchar(100),
+    constraint teste_pk primary key (teste_id)
+);
+
+insert into teste values (10000, 'linha teste');
+
+create trigger tg_sq_teste 
+before insert on teste
+for each row 
+begin
+    :new.teste.id := sq_teste.nextval;
+end;
+/
+
+
+
+/*  -------------------------------------------------------------*/
+
+select distinct departamento from tabelao;
+
+insert into departamentos (dep_nome)(
+    select distinct departamento from tabelao
+);
+
+update tabelao set 
+    departamento = (select c##app.departamentos.dep_id from departamentos where departamentos.dep_nome = tabelao.departamento);
+
+update tabelao set 
+    cargo = (select car_id from cargos where cargos.car_nome = tabelao.cargo);
+
+/*O script abaixo necessita de trigger para conseguir inserir a serialização dos ids, não apenas aqui, mas em todas as tabelas!*/ 
+insert into empregados (
+    select 
+        null,
+        nome,
+        matricula,
+        email,
+        salario,
+        to_number(departamento),
+        to_number(cargo)
+    from
+        tabelao
+);
