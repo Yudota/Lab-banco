@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4D59DEC-C987-F411-376A-337A84B68C43" name="PAIS_REGISTRO">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 14:27:21 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="reg_id" id="D78B53CB-EB21-2B31-C289-AC4CF03EE074">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 14:28:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do país de registro]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reg_nome_pais_registro" id="B2078835-76D0-3250-E296-A61ECC7F89FA">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 14:28:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do país de registro]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22E63C9F-CE81-6877-87F1-2F49FC23BB1C" name="PK_REG">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 14:28:12 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D78B53CB-EB21-2B31-C289-AC4CF03EE074"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

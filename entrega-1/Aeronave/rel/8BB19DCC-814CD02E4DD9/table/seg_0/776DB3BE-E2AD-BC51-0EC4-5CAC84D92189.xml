@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="776DB3BE-E2AD-BC51-0EC4-5CAC84D92189" name="REGISTRO_SEGMENTO">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 14:30:09 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="seg_id" id="7F974866-6009-2E80-4728-A93D41229FA2">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 14:31:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificado único do registro de segmento da aeronave	]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seg_registro_segmento" id="F867A70F-B9B3-6692-FB70-7A39CFA6E1C0">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 14:31:30 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50B22F82-83B5-136F-3BBC-30869A298825" name="PK_SEG">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 14:31:07 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F974866-6009-2E80-4728-A93D41229FA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
