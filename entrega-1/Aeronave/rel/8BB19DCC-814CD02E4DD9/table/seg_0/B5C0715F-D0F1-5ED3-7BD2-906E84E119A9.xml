@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5C0715F-D0F1-5ED3-7BD2-906E84E119A9" name="VEICULOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5C0715F-D0F1-5ED3-7BD2-906E84E119A9" name="VEICULO">
 <createdBy>Ricardo Campos</createdBy>
 <createdTime>2022-09-04 13:04:02 UTC</createdTime>
-<ownerDesignName>Aeronave</ownerDesignName>
+<ownerDesignName>aeronave</ownerDesignName>
 <importedID>64F3C4B6-C301-3106-2690-F291851FBD81</importedID>
 <ordsAlias>cargos</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
@@ -13,11 +13,10 @@
 <createdBy>Ricardo Campos</createdBy>
 <createdTime>2022-09-04 13:04:02 UTC</createdTime>
 <commentInRDBMS><![CDATA[Identificador único do veículo]]></commentInRDBMS>
-<ownerDesignName>Aeronave</ownerDesignName>
+<ownerDesignName>aeronave</ownerDesignName>
 <importedID>A1B8EFD7-AFB6-D368-E7EA-01F917F70CA8</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -25,11 +24,10 @@
 <createdBy>Ricardo Campos</createdBy>
 <createdTime>2022-09-04 13:04:02 UTC</createdTime>
 <commentInRDBMS><![CDATA[Tipo do veículo]]></commentInRDBMS>
-<ownerDesignName>Aeronave</ownerDesignName>
+<ownerDesignName>aeronave</ownerDesignName>
 <importedID>080C68E1-A5A3-815A-8BC1-7DE17470C78B</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -39,7 +37,7 @@
 <ind_PK_UK id="B2B80DF4-E840-E334-92B7-05FF395BEF23" name="PK_VIC">
 <createdBy>Ricardo Campos</createdBy>
 <createdTime>2022-09-04 13:04:02 UTC</createdTime>
-<ownerDesignName>Aeronave</ownerDesignName>
+<ownerDesignName>aeronave</ownerDesignName>
 <importedID>1BADBAD0-F7BA-27CE-B86A-0CA865C4DB0A</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>

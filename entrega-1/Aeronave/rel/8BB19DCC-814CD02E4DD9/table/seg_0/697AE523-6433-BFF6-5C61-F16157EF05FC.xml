@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="697AE523-6433-BFF6-5C61-F16157EF05FC" name="NIVEL_DANO">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:20:53 UTC</createdTime>
+<ownerDesignName>aeronave</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dan_id" id="AA4CD65A-B73D-D1B8-1E46-54895557859B">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:21:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico do nivel de dano da aeronave	]]></commentInRDBMS>
+<ownerDesignName>aeronave</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dan_nivel_dano" id="F1C8114E-2FBA-4744-B490-EE43D68CF1C9">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:21:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nível do dano da aeronave]]></commentInRDBMS>
+<ownerDesignName>aeronave</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DCF8AAE-BB2D-398B-FE25-53C1DA6B0F3E" name="NIVEL_DANO_PK">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:21:27 UTC</createdTime>
+<ownerDesignName>aeronave</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA4CD65A-B73D-D1B8-1E46-54895557859B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

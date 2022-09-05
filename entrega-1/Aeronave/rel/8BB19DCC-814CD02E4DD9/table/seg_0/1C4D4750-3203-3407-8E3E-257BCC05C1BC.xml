@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C4D4750-3203-3407-8E3E-257BCC05C1BC" name="OCORRENCIAS">
 <createdBy>Ricardo Campos</createdBy>
 <createdTime>2022-09-04 13:04:02 UTC</createdTime>
-<ownerDesignName>Aeronave</ownerDesignName>
+<ownerDesignName>aeronave</ownerDesignName>
 <importedID>7990129F-CC70-82C4-2ABD-A6E531E5B638</importedID>
 <ordsAlias>empregados</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
@@ -13,11 +13,10 @@
 <createdBy>Ricardo Campos</createdBy>
 <createdTime>2022-09-04 13:04:02 UTC</createdTime>
 <commentInRDBMS><![CDATA[Identificador único da ocorrência]]></commentInRDBMS>
-<ownerDesignName>Aeronave</ownerDesignName>
+<ownerDesignName>aeronave</ownerDesignName>
 <importedID>D4785062-356C-02D3-7C04-2CB9ADFABD7B</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -25,79 +24,21 @@
 <createdBy>Ricardo Campos</createdBy>
 <createdTime>2022-09-04 13:04:02 UTC</createdTime>
 <commentInRDBMS><![CDATA[Código da ocorrência]]></commentInRDBMS>
-<ownerDesignName>Aeronave</ownerDesignName>
+<ownerDesignName>aeronave</ownerDesignName>
 <importedID>77A7B5AC-AC69-3A24-DD59-F861BEEE20BC</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="oco_aeronave_voo_origem" id="7EA10320-3A2E-C3E3-FCBD-8B2C0BBC4CEC">
-<createdBy>Ricardo Campos</createdBy>
-<createdTime>2022-09-04 13:04:02 UTC</createdTime>
-<commentInRDBMS><![CDATA[Voo de origem]]></commentInRDBMS>
-<ownerDesignName>Aeronave</ownerDesignName>
-<importedID>B4FE3160-40B0-5D32-B25D-E47432955407</importedID>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="oco_aeronave_voo_destino" id="07CBBA8A-C4E7-BD7A-2783-A990F17312DD">
-<createdBy>Ricardo Campos</createdBy>
-<createdTime>2022-09-04 13:04:02 UTC</createdTime>
-<commentInRDBMS><![CDATA[Voo de destino]]></commentInRDBMS>
-<ownerDesignName>Aeronave</ownerDesignName>
-<importedID>99D6B6BD-95F2-4DAF-CF55-27565B8E2670</importedID>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="oco_aeronave_fase_operacao" id="B2820E58-9873-08FD-5919-2F064330678A">
-<createdBy>Ricardo Campos</createdBy>
-<createdTime>2022-09-04 13:04:02 UTC</createdTime>
-<commentInRDBMS><![CDATA[Fase da Operação]]></commentInRDBMS>
-<ownerDesignName>Aeronave</ownerDesignName>
-<importedID>B535F17A-58A9-BD33-7D63-5097BC10BB3E</importedID>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="oco_aeronave_nivel_dano" id="04BE2773-4C3F-8DCF-9109-17763499263B">
-<createdBy>Ricardo Campos</createdBy>
-<createdTime>2022-09-04 13:14:38 UTC</createdTime>
-<commentInRDBMS><![CDATA[Nível do dano]]></commentInRDBMS>
-<ownerDesignName>Aeronave</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="oco_aeronave_fatalidades_total" id="F9129B38-9CA5-99A1-1AE8-D957320CEC8B">
 <createdBy>Ricardo Campos</createdBy>
 <createdTime>2022-09-04 13:15:51 UTC</createdTime>
 <commentInRDBMS><![CDATA[Total de Fatalidades]]></commentInRDBMS>
-<ownerDesignName>Aeronave</ownerDesignName>
+<ownerDesignName>aeronave</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -106,7 +47,7 @@
 <ind_PK_UK id="CF658F69-85FE-C2C4-E894-41C22A3E0534" name="PK_OCO">
 <createdBy>Ricardo Campos</createdBy>
 <createdTime>2022-09-04 13:04:02 UTC</createdTime>
-<ownerDesignName>Aeronave</ownerDesignName>
+<ownerDesignName>aeronave</ownerDesignName>
 <importedID>800A99F1-D5E9-2014-6CAA-07A4CE28315D</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>

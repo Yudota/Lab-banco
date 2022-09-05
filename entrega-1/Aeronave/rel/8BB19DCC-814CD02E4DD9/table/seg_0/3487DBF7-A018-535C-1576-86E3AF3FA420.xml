@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3487DBF7-A018-535C-1576-86E3AF3FA420" name="MODELOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3487DBF7-A018-535C-1576-86E3AF3FA420" name="MODELO">
 <createdBy>Ricardo Campos</createdBy>
 <createdTime>2022-09-04 13:50:32 UTC</createdTime>
-<ownerDesignName>Aeronave</ownerDesignName>
+<ownerDesignName>aeronave</ownerDesignName>
 <ordsAlias>table_7</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -12,10 +12,9 @@
 <createdBy>Ricardo Campos</createdBy>
 <createdTime>2022-09-04 13:51:37 UTC</createdTime>
 <commentInRDBMS><![CDATA[Identificador unico do modelo]]></commentInRDBMS>
-<ownerDesignName>Aeronave</ownerDesignName>
+<ownerDesignName>aeronave</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -23,11 +22,10 @@
 <createdBy>Ricardo Campos</createdBy>
 <createdTime>2022-09-04 13:52:13 UTC</createdTime>
 <commentInRDBMS><![CDATA[Nome do modelo]]></commentInRDBMS>
-<ownerDesignName>Aeronave</ownerDesignName>
+<ownerDesignName>aeronave</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -37,11 +35,10 @@
 <createdTime>2022-09-04 13:52:53 UTC</createdTime>
 <commentInRDBMS><![CDATA[Tipo ição do modelo
 ]]></commentInRDBMS>
-<ownerDesignName>Aeronave</ownerDesignName>
+<ownerDesignName>aeronave</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -51,7 +48,7 @@
 <ind_PK_UK id="BFFFDE63-35C4-87AB-1BD9-804FDFE7FBA0" name="PK_MOD">
 <createdBy>Ricardo Campos</createdBy>
 <createdTime>2022-09-04 13:51:37 UTC</createdTime>
-<ownerDesignName>Aeronave</ownerDesignName>
+<ownerDesignName>aeronave</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
