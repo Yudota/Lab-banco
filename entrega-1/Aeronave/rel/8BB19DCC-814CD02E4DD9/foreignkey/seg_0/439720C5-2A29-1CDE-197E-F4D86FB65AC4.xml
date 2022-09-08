@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="439720C5-2A29-1CDE-197E-F4D86FB65AC4" containerWithKeyObject="1C4D4750-3203-3407-8E3E-257BCC05C1BC" localFKIndex="B2CDF4BA-5ABF-FDCE-1865-CB5F4744DD54" name="OCO_NIV_DAN_ID_FK">
+<createdBy>guara</createdBy>
+<createdTime>2022-09-08 13:41:21 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<referredTableLongName>NIVEL_DANO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>697AE523-6433-BFF6-5C61-F16157EF05FC</referredTableID>
+<keyObject>8DCF8AAE-BB2D-398B-FE25-53C1DA6B0F3E</keyObject>
+<referredKeyID>8DCF8AAE-BB2D-398B-FE25-53C1DA6B0F3E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>dan_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

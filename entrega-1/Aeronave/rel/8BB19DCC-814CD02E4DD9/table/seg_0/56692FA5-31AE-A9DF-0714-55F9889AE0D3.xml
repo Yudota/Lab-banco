@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56692FA5-31AE-A9DF-0714-55F9889AE0D3" name="FABRICANTE">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:41:04 UTC</createdTime>
+<ownerDesignName>aeronave</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fab_id" id="A546803B-D1BF-2AD7-DBB4-83C9A2C72C9A">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:41:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do fabricante]]></commentInRDBMS>
+<ownerDesignName>aeronave</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fab_nome_fabricante" id="83C738F7-E9C2-F13A-63F9-4C0E58D13DA0">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:42:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do fabricante]]></commentInRDBMS>
+<ownerDesignName>aeronave</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5207B34-2DF2-E286-9AF2-D510BBE93FAC" name="PK_FAB">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:41:46 UTC</createdTime>
+<ownerDesignName>aeronave</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A546803B-D1BF-2AD7-DBB4-83C9A2C72C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

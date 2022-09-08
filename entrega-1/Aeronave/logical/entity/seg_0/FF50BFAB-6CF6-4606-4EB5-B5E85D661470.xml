@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF50BFAB-6CF6-4606-4EB5-B5E85D661470" name="PAIS FABRICANTE">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<generatorID>50E00571-21DE-9076-9F59-CBB71F5401D9</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pai id" id="B7435D6B-824E-A41B-B355-A87C30CFA382">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do país do fabricante]]></commentInRDBMS>
+<generatorID>FE9AF6BF-F3E0-49DB-849A-FAFE9CC12520</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pai nome pais fabricante" id="48DC4D9A-7E85-05D6-6E8E-ADE3A422DA7D">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[País do fabricante]]></commentInRDBMS>
+<generatorID>B9814D30-E5BB-E791-B149-56C42C59C9FD</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2AED3472-DBC6-C7B7-0DC4-497B6309AB7D" name="PK PAI">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<generatorID>3A64A4E9-263B-C057-6F88-A42B36364C89</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B7435D6B-824E-A41B-B355-A87C30CFA382</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

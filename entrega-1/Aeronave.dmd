@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Aeronave" id="CA31B467-557F-2D84-91E1-29F665E630AC" version="3.5">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:01:42 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CA31B467-557F-2D84-91E1-29F665E630AC</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="92E69807-6D85-C16A-F586-40AD27924FDB">
+<designStoragePath>C:\Users\Ricardo Campos\Desktop\Erika\FATEC\BD_LabBancoDados\MaterialAula\Carga de dados - exemplo\modelo data modeler\exemplo_empregados</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

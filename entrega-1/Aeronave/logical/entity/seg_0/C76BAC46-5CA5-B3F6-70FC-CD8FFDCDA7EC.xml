@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C76BAC46-5CA5-B3F6-70FC-CD8FFDCDA7EC" name="VOO DESTINO">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<generatorID>2EB50B91-F29A-619D-7CC3-2C3E982CE6DF</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dest id" id="1BF26CC5-E2BD-B2AC-C404-6E1A06CEC5A5">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico do local de destino da aeronave]]></commentInRDBMS>
+<generatorID>AC50FA5F-712D-5C84-642C-1C81A2B62BDF</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ori local voo destino" id="98A1E57D-FB6C-6909-B625-ECEB311B5D15">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Local de destino da aeronave]]></commentInRDBMS>
+<generatorID>16676C02-C5FF-AE53-50C6-01C5542CC024</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0EE53088-8EB5-8D2E-D885-9D5690A52007" name="PK DEST">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<generatorID>617229EE-0572-EE58-2894-34A1B5D19CFF</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1BF26CC5-E2BD-B2AC-C404-6E1A06CEC5A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

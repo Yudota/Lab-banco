@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E79D2EFC-3644-5B21-8205-26C09CD1EA5C" name="VOO ORIGEM">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<generatorID>0C8FBDB6-5C72-A8CA-72A1-0EB0080A1FF3</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ori id" id="B7C2D6FC-9974-2B1E-7CFD-1C1860EB26FF">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do voo de origem da aeronave]]></commentInRDBMS>
+<generatorID>E1B842FC-C727-9632-6980-48D4FD4D9A41</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ori local voo origem" id="71782438-54B3-EF80-23B7-72ED73174CD6">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Local do  voo de origem da aeronave]]></commentInRDBMS>
+<generatorID>8907AAF3-21D9-3D0B-09F0-34BDAB4DA7E3</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1CE5A537-FFA1-76D0-E8F2-56E360A4E6FB" name="PK ORI">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<generatorID>2BF26156-44A2-2CE5-770B-1BDF361B6331</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B7C2D6FC-9974-2B1E-7CFD-1C1860EB26FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

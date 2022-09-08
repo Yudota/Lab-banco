@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C8FBDB6-5C72-A8CA-72A1-0EB0080A1FF3" name="VOO_ORIGEM">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:11:49 UTC</createdTime>
+<ownerDesignName>aeronave</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ori_id" id="E1B842FC-C727-9632-6980-48D4FD4D9A41">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:12:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do voo de origem da aeronave]]></commentInRDBMS>
+<ownerDesignName>aeronave</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ori_local_voo_origem" id="8907AAF3-21D9-3D0B-09F0-34BDAB4DA7E3">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:14:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Local do  voo de origem da aeronave]]></commentInRDBMS>
+<ownerDesignName>aeronave</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BF26156-44A2-2CE5-770B-1BDF361B6331" name="PK_ORI">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:14:15 UTC</createdTime>
+<ownerDesignName>aeronave</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1B842FC-C727-9632-6980-48D4FD4D9A41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

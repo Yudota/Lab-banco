@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1323CDF7-5CD8-9F7A-0027-A5C58D3B1FA0" name="MODELOS">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<generatorID>3487DBF7-A018-535C-1576-86E3AF3FA420</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mod id" id="016AF729-24C6-ED8A-92AB-400C576A8D7F">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico do modelo]]></commentInRDBMS>
+<generatorID>E6C27C7B-D383-E9A5-79DF-34568408F9C6</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mod nome modelo" id="93481FD8-33C1-7C3B-923F-430753F95431">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do modelo]]></commentInRDBMS>
+<generatorID>035681A8-09C8-8394-7C28-8D247E328ABD</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mod tipo icao" id="41EF7417-9ADD-8C7B-83D0-D7C8B482512C">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo ição do modelo
+]]></commentInRDBMS>
+<generatorID>BD636EF9-2FEB-04B2-1ABB-00111E18A059</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7E65991-2835-792A-81E3-3E1DB2CB9B8D" name="PK MOD">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<generatorID>BFFFDE63-35C4-87AB-1BD9-804FDFE7FBA0</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>016AF729-24C6-ED8A-92AB-400C576A8D7F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

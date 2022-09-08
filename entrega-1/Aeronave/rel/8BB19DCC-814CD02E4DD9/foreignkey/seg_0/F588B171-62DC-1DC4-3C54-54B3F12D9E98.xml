@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F588B171-62DC-1DC4-3C54-54B3F12D9E98" containerWithKeyObject="1C4D4750-3203-3407-8E3E-257BCC05C1BC" localFKIndex="D64230F1-2BE3-70AB-92C8-7887B6759360" name="OCO_FAS_OPE_ID_FK">
+<createdBy>guara</createdBy>
+<createdTime>2022-09-08 13:41:57 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<referredTableLongName>FASE_OPERACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>75DABE0C-D975-C6C0-C8E1-DAD715695BC6</referredTableID>
+<keyObject>394E0BE7-194B-BB0C-D779-8C26056438CA</keyObject>
+<referredKeyID>394E0BE7-194B-BB0C-D779-8C26056438CA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ope_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

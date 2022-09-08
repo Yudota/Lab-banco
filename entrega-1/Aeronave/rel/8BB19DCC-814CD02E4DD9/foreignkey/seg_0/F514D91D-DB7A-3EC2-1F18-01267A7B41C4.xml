@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F514D91D-DB7A-3EC2-1F18-01267A7B41C4" containerWithKeyObject="3487DBF7-A018-535C-1576-86E3AF3FA420" localFKIndex="33125834-92CD-A1B0-93D7-55A79BABA7D6" name="MOD_FAB_FK">
+<createdBy>guara</createdBy>
+<createdTime>2022-09-08 13:40:33 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<referredTableLongName>FABRICANTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>56692FA5-31AE-A9DF-0714-55F9889AE0D3</referredTableID>
+<keyObject>C5207B34-2DF2-E286-9AF2-D510BBE93FAC</keyObject>
+<referredKeyID>C5207B34-2DF2-E286-9AF2-D510BBE93FAC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>fab_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7FCC2A7A-928F-7C3D-6CB4-F149B6A5F010" containerWithKeyObject="3487DBF7-A018-535C-1576-86E3AF3FA420" localFKIndex="0FBF4141-351B-4E5C-4B5D-E19945AA74D2" name="MOD_QTD_MOT_FK">
+<createdBy>guara</createdBy>
+<createdTime>2022-09-08 13:38:00 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<referredTableLongName>QUANTIDADE_MOTORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7A5672AD-2FA9-EA7F-E86B-740BA3B945C1</referredTableID>
+<keyObject>0E9B426B-478A-C1F9-8680-902BB915F4BA</keyObject>
+<referredKeyID>0E9B426B-478A-C1F9-8680-902BB915F4BA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>qmo_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1(2)" id="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" mainViewID="FF328B0F-A1CE-45A5-CCF8-775FDA16985E">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:03:54 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

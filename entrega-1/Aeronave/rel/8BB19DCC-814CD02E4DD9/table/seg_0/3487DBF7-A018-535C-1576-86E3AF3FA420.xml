@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3487DBF7-A018-535C-1576-86E3AF3FA420" name="MODELO">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:50:32 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mod_id" id="E6C27C7B-D383-E9A5-79DF-34568408F9C6">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:51:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico do modelo]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F514D91D-DB7A-3EC2-1F18-01267A7B41C4" referredColumn="A546803B-D1BF-2AD7-DBB4-83C9A2C72C9A"/>
+<colAssociation fkAssociation="7FCC2A7A-928F-7C3D-6CB4-F149B6A5F010" referredColumn="40DE8622-7690-6735-91D8-519DD3243097"/>
+</associations>
+</Column>
+<Column name="mod_nome_modelo" id="035681A8-09C8-8394-7C28-8D247E328ABD">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:52:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do modelo]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mod_tipo_icao" id="BD636EF9-2FEB-04B2-1ABB-00111E18A059">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:52:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo ição do modelo
+]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFFFDE63-35C4-87AB-1BD9-804FDFE7FBA0" name="PK_MOD">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:51:37 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6C27C7B-D383-E9A5-79DF-34568408F9C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FBF4141-351B-4E5C-4B5D-E19945AA74D2" name="MOD_QTD_MOT_FK">
+<createdBy>guara</createdBy>
+<createdTime>2022-09-08 13:38:00 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6C27C7B-D383-E9A5-79DF-34568408F9C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33125834-92CD-A1B0-93D7-55A79BABA7D6" name="MOD_FAB_FK">
+<createdBy>guara</createdBy>
+<createdTime>2022-09-08 13:40:33 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6C27C7B-D383-E9A5-79DF-34568408F9C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

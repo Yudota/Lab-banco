@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8D4FB8A1-86F7-F4E7-115D-0DD552F73499" containerWithKeyObject="776DB3BE-E2AD-BC51-0EC4-5CAC84D92189" localFKIndex="8210E96D-D4D0-7B68-9A25-05BF752277B0" name="REG_PAI_REG_ID_FK">
+<createdBy>guara</createdBy>
+<createdTime>2022-09-08 13:36:12 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<referredTableLongName>PAIS_REGISTRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E4D59DEC-C987-F411-376A-337A84B68C43</referredTableID>
+<keyObject>22E63C9F-CE81-6877-87F1-2F49FC23BB1C</keyObject>
+<referredKeyID>22E63C9F-CE81-6877-87F1-2F49FC23BB1C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>reg_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

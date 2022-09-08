@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB0D2182-5874-53E6-45B2-B84259710EFC" name="MOTORES">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<generatorID>2A252C2F-2387-395F-2729-BBE9324CC0AF</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mot id" id="A523D877-5FDD-84FD-0056-5442B0745861">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do motor]]></commentInRDBMS>
+<generatorID>D43130C0-CCCA-855C-0F48-3A996996FCF5</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mot tipo motor" id="623E1B2A-ED5D-63F8-1F3A-FB00EE270FFF">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo do motor]]></commentInRDBMS>
+<generatorID>3CF549E1-4042-F613-204D-D89FCDA9394C</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03D6E31A-FCDF-6BCE-8201-6A6520D1AE1B" name="PK MOT">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 21:26:14 UTC</createdTime>
+<generatorID>090CF666-1912-7B45-39B6-4F2596697277</generatorID>
+<ownerDesignName>aeronave</ownerDesignName>
+<engineerTo>
+<item key="41417D6A-C436-B42E-74F6-88930BE77D25" value="true"/>
+<item key="8BB19DCC-4C9D-D06C-4B1E-814CD02E4DD9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A523D877-5FDD-84FD-0056-5442B0745861</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

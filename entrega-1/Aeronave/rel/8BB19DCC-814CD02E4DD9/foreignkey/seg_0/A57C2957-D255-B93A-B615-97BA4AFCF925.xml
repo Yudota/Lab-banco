@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A57C2957-D255-B93A-B615-97BA4AFCF925" containerWithKeyObject="1C4D4750-3203-3407-8E3E-257BCC05C1BC" localFKIndex="CD4476C8-DD71-EAB0-9C82-15D8EB55345A" name="OCO_AER_ID_FK">
+<createdBy>guara</createdBy>
+<createdTime>2022-09-08 13:42:30 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<referredTableLongName>AERONAVE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4606C38C-7FEB-86D3-C857-6835A9725246</referredTableID>
+<keyObject>4F396A7E-A6BB-D504-C1FC-542F8E222276</keyObject>
+<referredKeyID>4F396A7E-A6BB-D504-C1FC-542F8E222276</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>aer_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

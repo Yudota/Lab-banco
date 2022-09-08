@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C4D4750-3203-3407-8E3E-257BCC05C1BC" name="OCORRENCIAS">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:04:02 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>7990129F-CC70-82C4-2ABD-A6E531E5B638</importedID>
+<ordsAlias>empregados</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="oco_id" id="775814F7-5B21-2B1B-581D-381712F7F28F">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:04:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único da ocorrência]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>D4785062-356C-02D3-7C04-2CB9ADFABD7B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A57C2957-D255-B93A-B615-97BA4AFCF925" referredColumn="AEE49DE9-F5E5-3CA0-C04E-91C7AADCF8AF"/>
+<colAssociation fkAssociation="F588B171-62DC-1DC4-3C54-54B3F12D9E98" referredColumn="0A3FAAF6-E799-8B91-BF08-686DDBB6FFE7"/>
+<colAssociation fkAssociation="439720C5-2A29-1CDE-197E-F4D86FB65AC4" referredColumn="AA4CD65A-B73D-D1B8-1E46-54895557859B"/>
+</associations>
+</Column>
+<Column name="oco_codigo_ocorrencia2" id="816E844F-8552-3D07-2F32-DED073DD61E7">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:04:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código da ocorrência]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>77A7B5AC-AC69-3A24-DD59-F861BEEE20BC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="oco_aeronave_fatalidades_total" id="F9129B38-9CA5-99A1-1AE8-D957320CEC8B">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:15:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Total de Fatalidades]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF658F69-85FE-C2C4-E894-41C22A3E0534" name="PK_OCO">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:04:02 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>800A99F1-D5E9-2014-6CAA-07A4CE28315D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="775814F7-5B21-2B1B-581D-381712F7F28F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2CDF4BA-5ABF-FDCE-1865-CB5F4744DD54" name="OCO_NIV_DAN_ID_FK">
+<createdBy>guara</createdBy>
+<createdTime>2022-09-08 13:41:21 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="775814F7-5B21-2B1B-581D-381712F7F28F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D64230F1-2BE3-70AB-92C8-7887B6759360" name="OCO_FAS_OPE_ID_FK">
+<createdBy>guara</createdBy>
+<createdTime>2022-09-08 13:41:57 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="775814F7-5B21-2B1B-581D-381712F7F28F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD4476C8-DD71-EAB0-9C82-15D8EB55345A" name="OCO_AER_ID_FK">
+<createdBy>guara</createdBy>
+<createdTime>2022-09-08 13:42:30 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="775814F7-5B21-2B1B-581D-381712F7F28F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

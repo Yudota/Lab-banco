@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4606C38C-7FEB-86D3-C857-6835A9725246" name="AERONAVE">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:04:02 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>66816302-C251-3F98-109A-92EC8E8CAE34</importedID>
+<ordsAlias>departamentos</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="aer_id" id="AEE49DE9-F5E5-3CA0-C04E-91C7AADCF8AF">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:04:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único da aeronave]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>F039BDDD-E1EF-5C89-E14E-21908A5F9944</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89F059D0-B985-D95F-2E7B-8D4D4111F92E" referredColumn="44358A91-D907-C397-42AB-26CA892D539E"/>
+</associations>
+</Column>
+<Column name="aer_matricula" id="FC211413-891A-8BC5-611C-CB5D640255C2">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:04:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Matricula da Aeronave]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>E0C5DC92-3471-6B35-A6FA-F6BA10D996B5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aer_assento" id="BD555F4E-F3A4-4112-F892-AD2C097E9806">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:37:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantidade de Assentos]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aer_ano_fabricacao" id="D9ADC3B0-154B-3E37-EE33-B78AE45A854E">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:38:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ano de fabricação da aeronave]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F396A7E-A6BB-D504-C1FC-542F8E222276" name="PK_AER">
+<createdBy>Ricardo Campos</createdBy>
+<createdTime>2022-09-04 13:04:02 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>C194F371-2C10-E653-6C20-08FE0CF8C98E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEE49DE9-F5E5-3CA0-C04E-91C7AADCF8AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62257718-0822-363E-C82E-BED803654AC0" name="AER_VEI_ID_FK">
+<createdBy>guara</createdBy>
+<createdTime>2022-09-08 13:39:54 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEE49DE9-F5E5-3CA0-C04E-91C7AADCF8AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

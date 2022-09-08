@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B2F79BF6-1083-5729-04ED-E6CBFB2B0BE9" containerWithKeyObject="75DABE0C-D975-C6C0-C8E1-DAD715695BC6" localFKIndex="D26324F1-3385-DDCD-9D62-6D862F32E3A7" name="FOP_DES_ID_FK">
+<createdBy>guara</createdBy>
+<createdTime>2022-09-08 13:31:35 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<referredTableLongName>VOO_DESTINO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2EB50B91-F29A-619D-7CC3-2C3E982CE6DF</referredTableID>
+<keyObject>617229EE-0572-EE58-2894-34A1B5D19CFF</keyObject>
+<referredKeyID>617229EE-0572-EE58-2894-34A1B5D19CFF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>dest_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
