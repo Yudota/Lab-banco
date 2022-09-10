@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="A13C43A5-0645-B94C-BE32-11583C1DE6DE" name="Aeronave" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

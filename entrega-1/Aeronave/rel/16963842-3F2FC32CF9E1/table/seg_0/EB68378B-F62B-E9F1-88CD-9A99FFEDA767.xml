@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB68378B-F62B-E9F1-88CD-9A99FFEDA767" name="VOO_ORIGEM">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:42:41 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>0C8FBDB6-5C72-A8CA-72A1-0EB0080A1FF3</importedID>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ori_id" id="500161A6-0C3D-53E1-E22D-DE307BD2E365">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:42:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do voo de origem da aeronave]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>E1B842FC-C727-9632-6980-48D4FD4D9A41</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ori_local_voo_origem" id="692B7F7C-42D8-7D98-245E-CDD3C2931533">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:42:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Local do  voo de origem da aeronave]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>8907AAF3-21D9-3D0B-09F0-34BDAB4DA7E3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F423D60C-2686-DE3D-1466-75211665FBA1" name="PK_ORI">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:42:41 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>2BF26156-44A2-2CE5-770B-1BDF361B6331</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="500161A6-0C3D-53E1-E22D-DE307BD2E365"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB914FBC-FDD5-0178-DF68-3F56444376C1" containerWithKeyObject="2561D980-79E4-16F6-51AC-BC7466DB1610" localFKIndex="6F324374-3AC7-9ECE-7930-145D755D6549" name="FK_OCO_OPE">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:42:41 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>F588B171-62DC-1DC4-3C54-54B3F12D9E98</importedID>
+<referredTableLongName>FASE_OPERACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E03507D-7FA0-6F3C-DA7B-773DAF94EABA</referredTableID>
+<keyObject>84A8B52D-AE6C-A803-55FE-C75CC38EEE1D</keyObject>
+<referredKeyID>84A8B52D-AE6C-A803-55FE-C75CC38EEE1D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ope_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

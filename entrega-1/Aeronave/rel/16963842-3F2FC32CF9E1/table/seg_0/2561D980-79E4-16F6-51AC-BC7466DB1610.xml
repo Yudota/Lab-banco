@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2561D980-79E4-16F6-51AC-BC7466DB1610" name="OCORRENCIAS">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:42:41 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>1C4D4750-3203-3407-8E3E-257BCC05C1BC</importedID>
+<ordsAlias>empregados</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="oco_id" id="2DF30DAF-5894-8FDB-0F8A-811F8B506530">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:42:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único da ocorrência]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>775814F7-5B21-2B1B-581D-381712F7F28F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="oco_codigo_ocorrencia2" id="0D2920B4-3389-B242-CA97-ED3E38E796C5">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:42:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código da ocorrência]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>816E844F-8552-3D07-2F32-DED073DD61E7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="oco_aeronave_fatalidades_total" id="CFE71DA4-BF9E-96E3-849E-937A3A87E9D4">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:42:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Total de Fatalidades]]></commentInRDBMS>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>F9129B38-9CA5-99A1-1AE8-D957320CEC8B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="oco_aer_id" id="2AC9E803-B8D4-A2CA-C2E9-6A63FDD43FC8">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:59:44 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C903CA7-6A8F-9633-90CC-AA4EE7ADC0F0" referredColumn="43EB8BD9-6BA6-FA61-0366-E8FAEDAA1A7F"/>
+</associations>
+</Column>
+<Column name="oco_dan_id" id="D9768C95-2C5A-0D7C-F54D-7C298EBDAA60">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 23:03:32 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="048C79D3-679F-EACE-DEAC-999A80B191B5" referredColumn="28C5ABA4-FB14-947C-28B1-BE60CF89D7C2"/>
+</associations>
+</Column>
+<Column name="oco_ope_id" id="21A0F0DD-93AA-11E4-54B6-C46F02087B06">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 23:12:11 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB914FBC-FDD5-0178-DF68-3F56444376C1" referredColumn="E5ED0070-B5F4-73F4-571B-737453A8F817"/>
+</associations>
+</Column>
+<Column name="oco_des_id" id="C9CA51AE-C075-1999-41DB-176C3014C595">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 23:16:58 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E255517-A052-306D-A9F7-39E342A27660" referredColumn="37B88E6F-9321-FC67-96E7-8F024249B8FC"/>
+</associations>
+</Column>
+<Column name="oco_ori_id" id="50CF3E68-C97F-4B2F-2963-D18E739D8609">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 23:18:14 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7004C1A1-B415-E5BC-14CD-CA83B6A3B109" referredColumn="500161A6-0C3D-53E1-E22D-DE307BD2E365"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90D08F79-6F54-0EE3-0C2F-8275BF8C066A" name="PK_OCO">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:42:41 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<importedID>CF658F69-85FE-C2C4-E894-41C22A3E0534</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DF30DAF-5894-8FDB-0F8A-811F8B506530"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35DCA169-8A09-2CD5-63F0-057838D3EC98" name="FK_OCO_DAN">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:42:41 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9768C95-2C5A-0D7C-F54D-7C298EBDAA60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B72CAF7E-62EB-6656-8CD3-0787CA1C7984" name="FK_OCO_AER">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:42:41 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AC9E803-B8D4-A2CA-C2E9-6A63FDD43FC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F324374-3AC7-9ECE-7930-145D755D6549" name="FK_OCO_OPE">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:42:41 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21A0F0DD-93AA-11E4-54B6-C46F02087B06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AADAC2E-C577-2E80-AF7E-297BE32F77F6" name="FK_OCO_ORI">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:46:34 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50CF3E68-C97F-4B2F-2963-D18E739D8609"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77715BC4-E9C6-B3C1-F6EA-95B73EFFBC10" name="FK_OCO_DES">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:46:34 UTC</createdTime>
+<ownerDesignName>Aeronave</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9CA51AE-C075-1999-41DB-176C3014C595"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

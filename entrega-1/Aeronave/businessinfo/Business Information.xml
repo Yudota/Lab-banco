@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="56EDB48B-D2AA-167D-76A2-C38313AA8950">
-<createdBy>Ricardo Campos</createdBy>
-<createdTime>2022-09-04 13:01:43 UTC</createdTime>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="B25CB94C-7479-0FCF-1DC4-0700BCC26450">
+<createdBy>FATEC</createdBy>
+<createdTime>2022-09-09 22:16:13 UTC</createdTime>
 <ownerDesignName>Aeronave</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </BusinessInfoDesign>
