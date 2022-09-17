@@ -3,7 +3,6 @@ SELECT DISTINCT
 FROM
     "c##app"."TABELAO" "A1" ;
     
-create sequence sq_teste nocache;
 select * from teste;
 
 create table teste(
@@ -14,13 +13,14 @@ create table teste(
 
 insert into teste values (10000, 'linha teste');
 
+create sequence sq_teste nocache;
 create trigger tg_sq_teste 
 before insert on teste
 for each row 
 begin
     :new.teste.id := sq_teste.nextval;
 end;
-/
+
 
 
 
