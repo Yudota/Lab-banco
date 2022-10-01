@@ -1,0 +1,19 @@
+with
+    dados_atuais as (
+        select
+            oco_codigo_ocorrencia2 as codigo, oco_aeronave_fatalidades_total as quantidade_atual
+        from
+            ocorrencias    
+    ),
+    dados_antigos as (
+        select
+            h1.hoco_codigo_ocorrencia2 as codigo, h1.hoco_aeronave_fatalidades_total as quantidade_antiga
+        from
+            h_ocorrencias h1
+        where
+            hoco_datahora = (
+                select min(h2.hoco_datahora) from h_ocorrencias h2 where h2.hoco_codigo_ocorrencia2 = h1.hoco_codigo_ocorrencia2
+            )
+    )
+select codigo, quantidade_atual, nvl(quantidade_antiga,0),quantidade_atual - nvl(quantidade_antiga,0) as diferenca
+from dados_atuais left join dados_antigos using (codigo);
